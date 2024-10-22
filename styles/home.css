@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.landing {
+  background-image: url("../assets/images/landing-pic.jpg");
+  height: 100vh;
+}
+.sharing {
+  display: flex;
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 30px rgb(175, 175, 175);
+  border-radius: 10px;
+}
