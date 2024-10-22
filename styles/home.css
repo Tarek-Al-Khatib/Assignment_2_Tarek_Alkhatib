@@ -33,12 +33,13 @@
   color: white;
 }
 
-.join-btn {
+.primary-btn {
   padding: 10px 20px;
   border: none;
-  background-color: #ff6347;
+  background-color: #0078be;
   color: white;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 .headline {
@@ -51,11 +52,13 @@
 }
 
 .card {
-  text-align: center;
   margin: 20px;
-  padding: 20px;
+  padding: 50px;
   box-shadow: 1px 1px 30px rgb(224, 224, 224);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .headline-foundations {
@@ -114,4 +117,54 @@
 
 .hub-card {
   width: 200px;
+}
+
+.visit-blog {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.know-more {
+  width: 150px;
+  text-align: center;
+  align-self: center;
+}
+
+.card ul,
+.card ul li {
+  color: gray;
+  list-style-type: "△";
+  padding: 10px;
+}
+
+.card img {
+  width: 150px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+}
+
+.flex {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: rgb(185, 185, 185);
+  padding: 30px;
+}
+
+.flex ul {
+  color: white;
+  list-style: none;
+}
+
+.flex ul li {
+  padding: 5px;
+}
+
+.download-now-footer {
+  margin-left: 50px;
 }
