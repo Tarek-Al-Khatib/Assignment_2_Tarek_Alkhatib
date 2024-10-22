@@ -7,6 +7,9 @@
   list-style: none;
   gap: 30px;
   color: white;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .navbar img {
@@ -24,7 +27,24 @@
 
 .landing {
   background-image: url("../assets/images/landing-pic.jpg");
+  background-size: cover;
   height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6347;
+  color: white;
+  cursor: pointer;
+}
+
+.headline {
+  align-self: center;
+  margin: 300px;
+  font-size: 48px;
 }
 .sharing {
   display: flex;
@@ -34,6 +54,64 @@
   text-align: center;
   margin: 20px;
   padding: 20px;
-  box-shadow: 1px 1px 30px rgb(175, 175, 175);
+  box-shadow: 1px 1px 30px rgb(224, 224, 224);
   border-radius: 10px;
+}
+
+.headline-foundations {
+  text-align: center;
+  padding: 30px;
+}
+
+.vision {
+  height: 400px;
+  background-image: url(https://beirutdigitaldistrict.com/wp-content/uploads/2024/01/Shared-Space-at-BDD.png);
+  background-position: 0px -53.8em;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 30px;
+}
+
+.vision h1 {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 36px;
+}
+
+.store {
+  width: 300px;
+}
+
+.download-now {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+  margin-top: 40px;
+}
+
+.hub {
+  height: 400px;
+  background-image: url(https://beirutdigitaldistrict.com/wp-content/uploads/2023/06/parallax-light.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 30px;
+}
+
+.hub h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.hub-flex {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.hub-card {
+  width: 200px;
 }
