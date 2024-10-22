@@ -26,7 +26,8 @@
 }
 
 .landing {
-  background-image: url("../assets/images/landing-pic.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/landing-pic.jpg");
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -96,6 +97,7 @@
 
 .hub {
   height: 400px;
+
   background-image: url(https://beirutdigitaldistrict.com/wp-content/uploads/2023/06/parallax-light.jpg);
   background-position: bottom center;
   background-size: cover;
